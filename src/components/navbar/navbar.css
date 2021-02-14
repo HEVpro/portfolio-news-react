@@ -1,0 +1,134 @@
+.navbar{
+    width: 100vw;
+    height: 4em;
+    background-color: #565956;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60em;
+    
+}
+.content-navbar > h2{
+    color: white;
+    font-weight: bold;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.search{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    width: 27em;
+    height: 2em;
+    background-color: #888c88;
+    outline: none;
+    margin-right: 10px;
+    text-indent: 10px;
+    color: black;
+
+}
+.search::placeholder{
+    color:black;
+}
+
+.searchBar > button{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    color: white;
+    width: 3em;
+}
+.userNavbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15em;
+}
+.userNavbar > h3 {
+    margin: 10px;
+    color: white;
+}
+.userNavbar > button {
+    border:none;
+    background-image:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 15px;
+    background-color: #888c88;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 12em;
+    margin: 10px;
+    margin-right:15px;
+    
+}
+
+.notSignedIn{
+    background-color: #888c88;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar{
+        width: 100%;
+        height: 8em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .content-navbar{
+        display: flex;
+        flex-direction: column;
+        width: 55em;
+        
+    }
+    .searchBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .search{
+        
+        width: 16.5em;
+        height: 2em;
+        background-color: #888c88;
+        outline: none;
+        margin-top: 10px;
+        margin-right: 10px;
+        text-indent: 10px;
+        color: black;
+    
+    }
+    .userNavbar > button {
+        
+        font-size: 13px;
+        background-color: #888c88;
+        padding: 2.5px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        width: 12em;
+        
+    }
+}

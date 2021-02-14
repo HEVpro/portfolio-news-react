@@ -1,0 +1,37 @@
+.homepage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 25em;
+}
+.main > p{
+    text-align: center;
+    text-justify: inter-word;
+    margin: 15px;
+}
+button{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #565956;
+    width: 8em;
+    height: 2em;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+}
+button:focus, button:hover{
+    box-shadow: 2px 1px 15px 9px #7ea686;
+}
