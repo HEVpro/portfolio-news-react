@@ -9,14 +9,14 @@
     padding: 15px;
 }
 .new-content{
-    width: 10.75em;
+    width: 14.5em;
 }
 .source{
     display:flex;
     flex-direction: column;
     color: black;
     background-color: #93ad99;
-    width: 16em;
+    width: 23em;
     font-size: 10px;
  
 }
@@ -36,8 +36,8 @@
     text-decoration: none;
 }
 img{
-    width: 10.9em;
-    height: 7.8em;
+    width: 14.5em;
+    height: 11em;
     border-radius: 10px;
 }
 @media only screen and (max-width: 500px) {
