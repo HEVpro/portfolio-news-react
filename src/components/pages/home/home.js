@@ -30,7 +30,7 @@ const Homepage = () => {
                 <h1>World's news! 🌏</h1>
                 <h3>Welcome to my News seeker!</h3>
                 <p>
-                    In this place you can see a news seeker created in React works!
+                    In this place you can see a news seeker created in React!
                     Hope you like!
                 </p>
                 <GoogleLogin 
